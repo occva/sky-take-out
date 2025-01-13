@@ -37,3 +37,12 @@ sky:
     admin-ttl: 7200000
     # 设置前端传递过来的令牌名称
     admin-token-name: token
+
+  tencent-cos:
+    APPID: ${sky.TencentCos.APPID}
+    SecretId: ${sky.TencentCos.SecretId}
+    SecretKey: ${sky.TencentCos.SecretKey}
+    testBucket: ${sky.TencentCos.testBucket}
+    CosPath: ${sky.TencentCos.CosPath}
+    region: ${sky.TencentCos.region}
+
